@@ -14,7 +14,7 @@ const codes = [
 var position = 0
 function init() {
   // your code here
-  document.body.addEventListener('keydown',function(e){
+  document.body.addEventListener('keydown', function(e){
     var key = e.key
     var requiredKey = codes[position]
     if (key === requiredKey) {
