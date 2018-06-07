@@ -16,8 +16,7 @@ function init() {
   // your code here
   document.body.addEventListener('keydown', function(e){
     const key = e.key
-    var requiredKey = codes[position]
-    if (key === requiredKey) {
+    if (key === codes[position]) {
       position++
       if (position === codes.length) {
         alert('Congratulations')
