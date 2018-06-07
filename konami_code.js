@@ -19,7 +19,7 @@ function init() {
     var requiredKey = codes[position]
     if (key === requiredKey) {
       position++
-      if (position === code.length) {
+      if (position === codes.length) {
         alert('Congratulations')
         position = 0
       }
