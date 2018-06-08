@@ -22,9 +22,10 @@ function init() {
         alert('Congratulations')
         position = 0
       }
-      else {
-        position = 0
-      }
     }
+    else {
+      position = 0
+    }
+    
   })
 }
